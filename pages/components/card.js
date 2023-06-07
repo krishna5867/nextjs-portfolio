@@ -9,10 +9,12 @@ const card = () => {
         <div className="mx-auto w-full">
           <Image src={CardImage} alt="card image" className="rounded-xl" />
           <div className="mt-4 flex justify-between">
-            <button className="p-2 bg-green-500 rounded-md px-4 mr-2">
+            <button className="p-2 bg-black text-white rounded-md px-4 mr-2">
               Github
             </button>
-            <button className="bg-blue-500 rounded-md px-4">Live</button>
+            <button className="bg-black text-white rounded-md px-4">
+              Live
+            </button>
           </div>
         </div>
       </div>

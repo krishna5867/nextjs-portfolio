@@ -1,5 +1,6 @@
 import React from "react";
 import Photo from "../assets/Rectangle 16.png";
+import Photo2 from "../assets/OBJECTS.svg";
 import Image from "next/image";
 const hero = () => {
   return (
@@ -10,8 +11,8 @@ const hero = () => {
           lorem ipsum dolor sit amet consectetur adipisicing elit. lorem ipsum
           dolar sits
         </div>
-        <div className="max-w-md border-2 bg-slate-500 p-4 rounded-xl ">
-          <Image src={Photo} alt="Photo" />
+        <div className="w-[250px] rounded-xl ">
+          <Image src={Photo2} alt="Photo" className="w-full" />
         </div>
       </div>
     </>
