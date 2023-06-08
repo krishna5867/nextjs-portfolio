@@ -4,7 +4,7 @@ import Link from "next/link";
 
 let array = ["1", "2", "3", "4", "5", "6", "7", "8"];
 
-const projects = () => {
+const Work = () => {
   return (
     <div>
       <span className="text-4xl font-bold flex justify-center mb-4">
@@ -25,4 +25,4 @@ const projects = () => {
   );
 };
 
-export default projects;
+export default Work;

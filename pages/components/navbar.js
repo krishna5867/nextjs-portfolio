@@ -18,9 +18,14 @@ const navbar = () => {
               About
             </li>
           </Link>
-          <Link href="/projects">
+          <Link href="/mywork">
             <li className="mr-4 py-1 px-2 rounded-xl hover:bg-slate-700 cursor-pointer">
               Projects
+            </li>
+          </Link>
+          <Link href="/projects">
+            <li className="mr-4 py-1 px-2 rounded-xl hover:bg-slate-700 cursor-pointer">
+              Blogs
             </li>
           </Link>
 

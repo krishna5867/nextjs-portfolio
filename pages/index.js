@@ -1,8 +1,5 @@
 import Head from "next/head";
 import Hero from "./components/hero";
-import Projects from "./components/projects";
-import Blog from "../pages/blog";
-
 export default function Home() {
   return (
     <>
@@ -13,8 +10,6 @@ export default function Home() {
       </Head>
       <main>
         <Hero />
-        <Projects />
-        <Blog />
       </main>
     </>
   );

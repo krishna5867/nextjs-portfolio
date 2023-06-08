@@ -8,6 +8,7 @@ const hero = () => {
       <div className="flex justify-around items-center h-[50vh]">
         <div className="max-w-md p-6 shadow-md ">
           <div className="text-4xl font-bold mb-5">KRISHNA KUMAR</div>
+          <h1 className="text-xl">React Developer @CodeMuse</h1>
           lorem ipsum dolor sit amet consectetur adipisicing elit. lorem ipsum
           dolar sits
         </div>
