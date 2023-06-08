@@ -4,7 +4,6 @@ import * as fs from "fs";
 
 
 export async function getServerSideProps(context) {
-  console.log(context.query);
   const { slug } = context.query;
 
   let myBlog = await fs.promises.readFile(`blogdata/${slug}.json`, "utf-8");
